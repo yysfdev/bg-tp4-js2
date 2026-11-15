@@ -23,7 +23,6 @@ td {
 .col_text   { text-align: left; }
 .col_chkbox { width: 80px; text-align: center; }
 
-/* ===== Étape 4 : espace "Résumé" ===== */
 #container_summary {
     display: flex;
     justify-content: space-between;  /* p1 à gauche, p3 à droite */
