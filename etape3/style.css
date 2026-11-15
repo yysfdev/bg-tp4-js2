@@ -1,5 +1,4 @@
-/* ===== Étape 1 : mise en forme du tableau ===== */
-/* Conteneur : tableau centré + police Calibri en premier choix */
+
 #table_container {
     width: 80%;
     margin: 30px auto;               /* centre horizontalement */
