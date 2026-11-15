@@ -1,5 +1,4 @@
-/* ===== Étape 1 : mise en forme du tableau ===== */
-/* Conteneur : tableau centré + police Calibri en premier choix */
+
 #table_container {
     width: 80%;
     margin: 30px auto;               /* centre horizontalement */
@@ -24,7 +23,6 @@ td {
 .col_text   { text-align: left; }
 .col_chkbox { width: 80px; text-align: center; }
 
-/* ===== Étape 4 : espace "Résumé" ===== */
 #container_summary {
     display: flex;
     justify-content: space-between;  /* p1 à gauche, p3 à droite */
@@ -36,7 +34,6 @@ td {
 #container_summary p { margin: 0; }
 #p2 { flex: 1; }                     /* p2 (vide) occupe l'espace du milieu */
 
-/* ===== Étape 5 : formulaire de saisie ===== */
 #form_container {
     display: flex;
     align-items: center;
@@ -48,7 +45,6 @@ td {
 .form_label { font-weight: bold; font-size: 13px; }
 .form_field { flex: 1; min-width: 0; padding: 4px; border: 1px solid #888; }
 
-/* ===== Étape 6 : boutons ===== */
 button {
     border: none;
     padding: 8px 10px;
